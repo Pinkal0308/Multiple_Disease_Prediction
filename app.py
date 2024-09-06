@@ -10,9 +10,9 @@ st.set_page_config(page_title="Multiple Disease Prediction", layout="wide", page
 # Define working directory and load models
 working_dir = os.path.dirname(os.path.abspath(__file__))
 
-diabetes_model = joblib.load(open(f'{working_dir}/diabetes_model.pkl', 'rb'))
-heart_disease_model = joblib.load(open(f'{working_dir}/heart_model.pkl', 'rb'))
-kidney_disease_model = joblib.load(open(f'{working_dir}/kidney_model.pkl', 'rb'))
+diabetes_model = joblib.load(open(f'{working_dir}/diabetes.pkl', 'rb'))
+heart_disease_model = joblib.load(open(f'{working_dir}/heart.pkl', 'rb'))
+kidney_disease_model = joblib.load(open(f'{working_dir}/kidney.pkl', 'rb'))
 
 # Sidebar for disease selection
 with st.sidebar:
