@@ -5,7 +5,7 @@ from streamlit_option_menu import option_menu
 import joblib
 
 # Configure the Streamlit page
-st.set_page_config(page_title="Multiple Disease Prediction", layout="wide", page_icon="👨‍🦰🤶")
+st.set_page_config(page_title="Multiple Disease Prediction", layout="wide", page_icon="👨‍⚕️👩‍⚕️")
 
 # Define working directory and load models
 working_dir = os.path.dirname(os.path.abspath(__file__))
